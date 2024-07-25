@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-slate-200 w-full h-full">
+    <!-- header start -->
+    <header
+      class="top-0 left-0 w-full flex h-16 justify-between bg-gradient-to-r from-blue-600 to-blue-700 p-4 space-x-4 items-center text-white sticky"
+    >
+      <!-- logo perpus start -->
+      <div class="md:w-auto w-full flex items-center px-5">
+        <img
+          class="max-w-12 max-h-12"
+          src="https://img.icons8.com/clouds/100/books.png"
+          alt="books"
+        />
+      </div>
+      <!-- logo perpus end -->
+
+      <!-- navbar start -->
+      <div class="flex mx-auto flex-grow items-center">
+        <nav
+          id="nav-menu"
+          class="hidden absolute w-full max-w-[200px] shadow-lg rounded-lg right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none"
+        >
+          <ul class="block lg:flex">
+            <li class="group">
+              <a
+                href="#hero"
+                class="text-base text-dark py-2 mx-8 group-hover:text-cyan-500 flex"
+                >Home</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="#about"
+                class="text-base text-dark py-2 mx-8 group-hover:text-cyan-500 flex"
+                >Katalog</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="#contact"
+                class="text-base text-dark py-2 mx-8 group-hover:text-cyan-500 flex"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- navbar end -->
+
+      <!-- logo akun start -->
+      <div class="flex items-center gap-6">
+        <h1>Muhammad Rifqi Setiawan</h1>
+        <img
+          width="48"
+          height="48"
+          src="https://img.icons8.com/color/48/circled-user-male-skin-type-6--v1.png"
+          alt="circled-user-male-skin-type-6--v1"
+        />
+      </div>
+      <!-- logo akun end -->
+    </header>
+    <!-- header end -->
+
+    <!-- search start -->
+    <section class="pt-20 pb-44">
+      <div class="container">
+        <div class="justify-center items-center flex mx-auto">
+          <div
+            class="flex items-center bg-white rounded-full shadow-md p-2 w-full max-w-md"
+          >
+            <input
+              type="text"
+              placeholder="Search..."
+              class="flex-grow px-4 py-1 text-gray-700 rounded-l-full focus:outline-none"
+            />
+            <button
+              class="bg-blue-500 text-white rounded-full px-4 py-2 ml-2 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- search end -->
+
+    <!-- katalog session start -->
+    <section id="katalog">
+      <div
+        class="container mx-auto w-[1400px] bg-white shadow-lg justify-center items-center flex flex-col gap-2 box-border"
+      >
+        <!-- katalog top start -->
+        <div class="w-[1000px]">
+          <div class="flex h-full pb-10">
+            <!-- button arrow left start -->
+            <div
+              class="mt-4 mr-4 h-[50px] w-[50px] rounded-[50%] relative hover:ease-in-out hover:duration-300 hover:scale-110 hover:shadow-lg cursor-pointer"
+            >
+              <div
+                class="absolute border-t-[4px] border-l-[4px] border-t-slate-400 border-l-slate-400 w-[20px] h-[20px] top-4 left-5 -rotate-45"
+              ></div>
+            </div>
+            <!-- button arrow left end -->
+            <!-- area gambar start -->
+            <div class="mr-4">
+              <div class="flex">
+                <img
+                  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1548033656i/42861019.jpg"
+                  alt="buku filosofi teras"
+                  class="h-44 w-32 -mt-9 shadow-lg"
+                />
+                <div class="flex flex-col pt-9 pl-5">
+                  <h1 class="font-bold text-lg">Filosofi Teras</h1>
+                  <p class="text-sm font-light">
+                    By Hery <br />
+                    Manampiring
+                  </p>
+                  <p class="text-base">⭐️ 4.3</p>
+                </div>
+              </div>
+              <h1 class="font-semibold">Description</h1>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur<br />
+                adipisicing elit.Doloremque asperiores<br />sed consequatur
+                cumque enim facilis!
+              </p>
+            </div>
+            <div class="mr-4">
+              <div class="flex">
+                <img
+                  src="https://cdn.gramedia.com/uploads/items/9786020633176_.Atomic_Habit.jpg"
+                  alt="buku Atomic Habit"
+                  class="h-44 w-32 -mt-9 shadow-lg"
+                />
+                <div class="flex flex-col pt-9 pl-5">
+                  <h1 class="font-bold text-lg">Atomic Habits</h1>
+                  <p class="text-sm font-light">By James Clear</p>
+                  <p class="text-base">⭐️ 4.5</p>
+                </div>
+              </div>
+              <h1 class="font-semibold">Description</h1>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur<br />
+                adipisicing elit.Doloremque asperiores<br />sed consequatur
+                cumque enim facilis!
+              </p>
+            </div>
+            <div class="mr-4">
+              <div class="flex">
+                <img
+                  src="https://cdn.gramedia.com/uploads/items/9786237351030.jpg"
+                  alt="buku filosofi teras"
+                  class="h-44 w-32 -mt-9 shadow-lg"
+                />
+                <div class="flex flex-col pt-9 pl-5">
+                  <h1 class="font-bold text-lg">I want to die...</h1>
+                  <p class="text-sm font-light">By Baek Se Hee</p>
+                  <p class="text-base">⭐️ 4.3</p>
+                </div>
+              </div>
+              <h1 class="font-semibold">Description</h1>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur<br />
+                adipisicing elit.Doloremque asperiores<br />sed consequatur
+                cumque enim facilis!
+              </p>
+            </div>
+            <!-- area gambar end -->
+            <!-- button arrow right start -->
+            <div
+              class="cursor-pointer mt-4 ml-4 h-[50px] w-[50px] rounded-[50%] relative hover:ease-in-out hover:duration-300 hover:scale-110 hover:shadow-lg"
+            >
+              <div
+                class="absolute border-t-[4px] border-l-[4px] border-t-slate-400 border-l-slate-400 w-[20px] h-[20px] top-4 left-3 rotate-[135deg]"
+              ></div>
+            </div>
+            <!-- button arrow right end -->
+          </div>
+        </div>
+        <!-- katalog top end -->
+
+        <hr class="my-4 border-t-2 border-slate-300 w-full h-2 shadow-2xl" />
+
+        <!-- katalog bottom start -->
+        <div class="flex flex-wrap w-[1000px] pb-32">
+          <div class="w-3/4 p-4 flex justify-between flex-wrap">
+            <p class="text-blue-600 text-xl font-semibold">Popular Books</p>
+            <p class="text-blue-600 text-sm font-semibold">All Genres⬇️</p>
+          </div>
+          <div class="w-1/4 p-4 items-center flex justify-center">
+            <p class="text-blue-600 text-xl font-semibold">Author this week</p>
+          </div>
+          <div
+            class="w-3/4 flex flex-wrap box-border gap-6 justify-center items-center pt-7"
+          >
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Bumi</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://cdn.gramedia.com/uploads/items/psychology_of_money.jpg"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Physcholo..</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://ebooks.gramedia.com/ebook-covers/31754/big_covers/ID_MIZ2016MTH03DDADT_B.jpg"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Dilan 1990</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://cdn.gramedia.com/uploads/items/Cover_Depan_Insecurity_Is_My_Middle_Name.jpg"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Insecurity</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://inc.mizanstore.com/aassets/img/com_cart/produk/rbak-017--.JPG"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Bulan</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://cdn.gramedia.com/uploads/items/ID_GPU2016MTH07MATA_C.jpg"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Matahari</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://cdn.gramedia.com/uploads/picture_meta/2023/4/10/ccmq4kges6gstnsrrtxabw.jpg"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Bintang</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://cdn.gramedia.com/uploads/images/1/42716/image_highres/ID_CB2018MTH05CB.jpg"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Ceros dan..</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+            <div class="flex w-[30%] justify-center items-center">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMYaQ6CAIGoosbgR_DijyDLOg6PK5JXZVKw&s"
+                alt="buku filosofi teras"
+                class="h-[116px] w-[78px] shadow-lg"
+              />
+              <div class="flex flex-col p-3">
+                <h1 class="font-bold text-base">Komet</h1>
+                <p class="text-sm font-light">198k reads</p>
+                <p class="text-base">⭐️ 4.3</p>
+                <button
+                  class="px-3 py-1 rounded-lg text-sm font-medium text-blue-600 transition-colors duration-200 sm:text-base sm:px-6 blue:hover:bg-gray-800 hover:bg-slate-300"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-1/4 flex flex-wrap flex-col pl-7 pt-7">
+            <div class="flex items-center gap-x-2 mb-7">
+              <img
+                class="object-cover w-10 h-10 rounded-lg"
+                src="https://idwriters.com/wp-content/uploads/2018/06/tl01.png"
+                alt=""
+              />
+              <div>
+                <h1 class="text-lg font-semibold text-gray-700 capitalize">
+                  Tereliye
+                </h1>
+              </div>
+            </div>
+            <div class="flex items-center gap-x-2 mb-7">
+              <img
+                class="object-cover w-10 h-10 rounded-lg"
+                src="https://cdns.klimg.com/resized/800x400/p/headline/pidi-baiq-ungkap-dilan-pernah-dapat-taw-1ca1a6.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-lg font-semibold text-gray-700 capitalize">
+                  Pidi Baiq
+                </h1>
+              </div>
+            </div>
+            <div class="flex items-center gap-x-2 mb-7">
+              <img
+                class="object-cover w-10 h-10 rounded-lg"
+                src="https://qubisastorage.blob.core.windows.net/files/profiles/17060/img300/17060-20210317104052321.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-lg font-semibold text-gray-700 capitalize">
+                  Raditya Dika
+                </h1>
+              </div>
+            </div>
+            <div class="flex items-center gap-x-2 mb-7">
+              <img
+                class="object-cover w-10 h-10 rounded-lg"
+                src="https://makassarwriters.com/wp-content/uploads/2023/06/henry-manampiring.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-lg font-semibold text-gray-700 capitalize">
+                  Henry Manampiring
+                </h1>
+              </div>
+            </div>
+            <div class="flex items-center gap-x-2 mb-7">
+              <img
+                class="object-cover w-10 h-10 rounded-lg"
+                src="https://cdn.gramedia.com/uploads/authors/Eka_Kurniawan.jpg"
+                alt=""
+              />
+              <div>
+                <h1 class="text-lg font-semibold text-gray-700 capitalize">
+                  Eka Kurniawan
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex w-3/4 justify-center items-center pt-9">
+            <div class="flex overflow-hidden border divide-x rounded-lg rtl:flex-row-reverse bg-slate-100">
+              <button class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-slate-400  hover:bg-gray-100">
+                  <<
+              </button>
+          
+              <button class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-slate-400  hover:bg-gray-100">
+                  >>
+              </button>
+          </div>
+          </div>
+        </div>
+        <!-- katalog bottom end -->
+      </div>
+    </section>
+    <!-- katalog session end -->
+
+    <!-- footer dan cotact session start -->
+    <section class="bg-white dark:bg-slate-900" id="contact">
+      <div class="container px-6 py-12 mx-auto">
+        <div class="text-center">
+          <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+          <h1
+            class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white"
+          >
+            Get in touch
+          </h1>
+
+          <p class="mt-3 text-gray-500 dark:text-gray-400">
+            Kami dengan senang hati melayani anda.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="flex flex-col items-center justify-center text-center">
+            <span
+              class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Email
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Silahkan menghubungi email dibawah ini.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+              rifqis232@gmail.com
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center text-center">
+            <span
+              class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Office
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Silahkan datang ke kantor kami.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+              Bojongsoang Street
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center text-center">
+            <span
+              class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Phone
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Senin-Jumat. 08.00-15.00 WIB.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+              082178830077
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact dan footer end -->
+  </body>
+</html>
