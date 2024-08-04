@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='825' preserveAspectRatio='none' viewBox='0 0 1440 825'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1056%26quot%3b)' fill='none'%3e%3crect width='1440' height='825' x='0' y='0' fill='rgba(157%2c 220%2c 235%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c570.223C122.997%2c575.714%2c260.06%2c632.308%2c361.806%2c562.981C463.588%2c493.629%2c451.388%2c341.53%2c501.048%2c228.821C549.834%2c118.094%2c651.958%2c27.38%2c651.104%2c-93.615C650.215%2c-219.622%2c576.913%2c-333.199%2c496.399%2c-430.132C414.695%2c-528.498%2c311.75%2c-608.107%2c190.363%2c-648.316C66.379%2c-689.385%2c-67.48%2c-693.341%2c-193.389%2c-658.621C-320.599%2c-623.542%2c-456.43%2c-566.716%2c-521.616%2c-451.983C-584.902%2c-340.594%2c-511.118%2c-202.831%2c-524.721%2c-75.443C-537.613%2c45.289%2c-634.158%2c157.352%2c-599.094%2c273.597C-563.284%2c392.318%2c-452.75%2c476.553%2c-341.622%2c531.575C-236.797%2c583.476%2c-116.854%2c565.006%2c0%2c570.223' fill='%234cbfda'%3e%3c/path%3e%3cpath d='M1440 1374.655C1540.7069999999999 1365.3400000000001 1610.351 1277.089 1694.131 1220.435 1775.625 1165.327 1890.083 1138.4769999999999 1925.173 1046.571 1960.219 954.781 1887.182 859.858 1868.6390000000001 763.371 1851.1979999999999 672.616 1868.4270000000001 574.585 1819.412 496.238 1766.743 412.051 1683.632 347.586 1589.232 316.762 1493.392 285.46799999999996 1390.997 300.677 1292.996 324.351 1190.967 348.998 1067.401 365.467 1013.865 455.752 959.913 546.74 1024.939 660.588 1030.999 766.195 1035.666 847.527 1026.124 926.056 1045.394 1005.21 1068.449 1099.914 1082.596 1203.8 1153.749 1270.416 1229.41 1341.2530000000002 1336.795 1384.201 1440 1374.655' fill='%23eef9fc'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1056'%3e%3crect width='1440' height='825' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="flex flex-col rounded-md bg-slate-200 shadow-xl items-center w-[480px] h-[530px] justify-center font-rubik"
+      id="form"
+    >
+      <h1 class="text-4xl font-bold mb-9 text-blue-800">Sign Up</h1>
+      <div class="flex flex-col items-start">
+        <div class="mb-2">
+          <label for="email" class="block text-blue-950 text-lg"
+            >Email Address</label
+          >
+
+          <div class="relative flex items-center mt-2">
+            <span class="absolute">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 mx-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+            </span>
+
+            <input
+              id="email"
+              type="email"
+              placeholder="john@example.com"
+              class="block w-full py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
+          <p class="text-sm text-red-900 hidden" id="warningEmail">*Masukkan email anda dengan benar</p>
+        </div>
+
+        <div class="mb-2 w-full">
+          <label for="username" class="block text-lg text-blue-950"
+            >Full Name</label
+          >
+          <input
+            id="fullName"
+            type="text"
+            placeholder="full name.."
+            class="block mt-2 w-full placeholder-gray-400/70 rounded-lg border border-gray-200 bg-slate-100 px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:focus:border-blue-300"
+          />
+          <p class="text-sm text-red-900 hidden" id="warningFullName">*Masukkan nama anda dengan benar</p>
+        </div>
+
+        <div class="mb-5 w-full">
+          <label for="password" class="block text-lg text-blue-950"
+            >Password</label
+          >
+          <input
+            id="password"
+            type="text"
+            placeholder="Password.."
+            class="block mt-2 w-full placeholder-gray-400/70 rounded-lg border border-gray-200 bg-slate-100 px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:focus:border-blue-300"
+          />
+          <p class="text-sm text-red-900 hidden" id="warningPassword">*Masukkan password anda dengan benar</p>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        onclick="signUp()"
+        class=" text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-xl text-sm px-5 py-3 text-center me-2 mb-2"
+      >
+        Sign up
+      </button>
+    </div>
+    
+    
+    <script src="typescript/signUp.js"></script>
+  </body>
+</html>
